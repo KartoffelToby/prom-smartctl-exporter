@@ -37,7 +37,7 @@ func (e *Exporter) Describe(ch chan<- *prometheus.Desc) {
 // Collect sends the collected metrics from each of the collectors to
 // exporter.
 func (e *Exporter) Collect(ch chan<- prometheus.Metric) {
-	out, err := exec.Command("lsblk", "-Snpo", "name").CombinedOutput()
+	out, err := exec.Command("lsblk", "-lnpo", "name").CombinedOutput()
 	if err != nil {
 		log.Printf("[ERROR] failed collecting metric %v: %v", out, err)
 		return
