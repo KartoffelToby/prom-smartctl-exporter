@@ -15,6 +15,12 @@
 			"revisionTime": "2019-01-09T07:22:47Z"
 		},
 		{
+			"checksumSHA1": "FFKD9n1TnRgox5OXZnvHJ4iKxxw=",
+			"path": "github.com/io-developer/prom-smartctl-exporter/exporter",
+			"revision": "43982cd0c22e57e97911ffe383729b66fb47c2f4",
+			"revisionTime": "2019-02-16T14:08:07Z"
+		},
+		{
 			"checksumSHA1": "bKMZjd2wPw13VwoE7mBeSv5djFA=",
 			"path": "github.com/matttproud/golang_protobuf_extensions/pbutil",
 			"revision": "c182affec369e30f25d3eb8cd8a478dee585ae7d",
@@ -81,5 +87,5 @@
 			"revisionTime": "2019-01-17T18:46:57Z"
 		}
 	],
-	"rootPath": "github.com/io-developer/prom-smartctl-exporter"
+	"rootPath": "data"
 }
