@@ -2,10 +2,11 @@ package main
 
 import (
 	"flag"
-	"github.com/io-developer/prom-smartctl-exporter/exporter"
-	"github.com/prometheus/client_golang/prometheus"
 	"log"
 	"net/http"
+
+	"github.com/io-developer/prom-smartctl-exporter/exporter"
+	"github.com/prometheus/client_golang/prometheus"
 )
 
 var (
